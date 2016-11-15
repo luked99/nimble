@@ -14,6 +14,9 @@ install:
 before_script:
   - set -e
   - set -x
+  - ls `pwd`
+  - ls `pwd`/nim-0.15.2
+  - ls `pwd`/nim-0.15.2/bin
   - export PATH=`pwd`/nim-0.15.2/bin:$PATH
 
 script:
